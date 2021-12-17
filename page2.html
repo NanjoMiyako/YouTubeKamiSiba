@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>YouTubeテスト</title>
+</head>
+<body>
+
+<hr>
+<div id="sample"></div><br>
+<hr>
+ 画像<br>
+<div id = "ImgDiv">
+</div>
+<hr>
+
+<div id="playUrl">
+再生動画ID<br>
+<input type="text" id="saiseiID"><br>
+<button type="button" id="" style="margin-top:10px;" onclick="SetPlayId()">
+セット
+</button><br>
+<button type="button" id="" style="margin-top:10px;" onclick="UnSetPlayId()">
+アンセット
+</button><br>
+<br>
+
+<span id="ImportTimeAndImageDataFlgSpan"></span><br>
+
+<input type="file" id="fileOfTimeAndImage"><br>
+<button type="button" id="LoadTimeAndImageDataBtn" style="margin-top:10px;" onclick="ImportTimeAndImageData()">
+時間別画像リストデータを読み込み
+</button><br>
+
+
+
+<br>
+
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="sample2b.js"></script>
+
+
+</body>
+</html>
